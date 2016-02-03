@@ -6,18 +6,21 @@ if(empty($_GET['time'])){
 <!DOCTYPE html>
 <html>
 <head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/css1.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="css/css1.css" type="text/css" />
+
 
 <!-- Ajax -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -35,7 +38,7 @@ Include("function_cal.php");
 //echo $end;
 require("dateThai.php");
 ?>
-	<div id="container">
+	<div class="container">
 		<h2>รายงานประจำวันที่ <?php echo $curdate; ?></h2>
 		<div id="top">
 

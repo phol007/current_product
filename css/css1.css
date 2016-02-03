@@ -1,8 +1,7 @@
-body{background: #43c1fb;}
-#container{
-	background: #43c1fb;
+body{background-color: blue;}
+.container{
+	background-color: #43c1fb;
 	width: 100%;
-	margin: auto;
 	padding: 5%;
 	padding-top: 5px;
 	padding-bottom: 1px;
@@ -30,22 +29,20 @@ body{background: #43c1fb;}
 	text-decoration: none;
 		}
 .menu{
-	width: 200px;
-	height:200px;
+	width: 90%;
 	background: #c1ebec;
 	padding: 5%;
-	margin-left:5%;
 	margin-top: 2%;
+	margin-left: 5%;
 	border-radius: 9px;
 	text-align: center;
 }
 .menu2{
-	width: 200px;
-	height:200px;
+	width: 90%;
 	background: red;
 	padding: 5%;
-	margin-left:5%;
 	margin-top: 2%;
+	margin-left: 5%;
 	border-radius: 9px;
 	text-align: center;
 }
@@ -55,6 +52,7 @@ body{background: #43c1fb;}
 	padding-left: 2%;
 	padding-right: 2%;
 	margin-top: 2%;
+	margin-left: 1%;
 	margin-bottom: 0;
 }
 .menuNotsuscess2{
@@ -63,6 +61,7 @@ body{background: #43c1fb;}
 	padding-left: 2%;
 	padding-right: 2%;
 	margin-top: 2%;
+	margin-left: 1%;
 	margin-bottom: 0;
 }
 
@@ -202,6 +201,7 @@ body{background: #43c1fb;}
 	margin: auto;
 	border-radius: 9px;
 	padding: 2%;
+	margin-top: 0;
 }
 #page2{
 	width: 100%;
