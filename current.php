@@ -178,7 +178,7 @@ require("dateThai.php");
         <div id="NumCar" onClick="window.location='p2.php'"></div>
 	</div>
 </div>
-
+<div class="home"><a href="#" class="home" onClick="window.location='index.php'"></a></div>
 </body>
 </html>
                 

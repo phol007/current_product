@@ -48,7 +48,7 @@ foreach ($out_w as $row) {
     //array_multisort($sort['qId'],SORT_ASC,$result);
 
     $cnt=count($result);
-$all_prouct.="<div class='Table' style='width:70%;'><table border='1'><tr><th>ลำดับ</th><th>ทะเบียน</th><th>ยี่ห้อ</th><th>เลขที่บิล</th><th>รายการ</th><th>ผู้จัด</th><th>ผู้ตรวจเช็ค</th><th>ราคา</th></tr>";
+$all_prouct.="<div class='Table' style='width:100%;'><table border='1' width='100%'><tr><th>ลำดับ</th><th>ทะเบียน</th><th>ยี่ห้อ</th><th>เลขที่บิล</th><th>รายการ</th><th>ผู้จัด</th><th>ผู้ตรวจเช็ค</th><th>ราคา</th></tr>";
     for($i=0;$i<$cnt;$i++){
       if(empty($sort['invoiceNo'][$i])){$sort['invoiceNo'][$i]="-";}
       $all_prouct.="<tr valign='top'><td>".$sort['qId'][$i]."</td><td>".$sort['carLicence'][$i]."</td><td>";

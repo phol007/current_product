@@ -39,8 +39,8 @@ $(document).ready(function(){
 
 	</head>
 	<body>
-        
-<div class="navbar">
+   <h3>DS</h3>     
+<div class="navbar navbar-fixed-top">
  <div class="container-fluid">
    <div class="navbar-header">
     <button type="button" class="navbar-toggle glyphicon glyphicon-th" aria-hidden="true" data-toggle="collapse" data-target=".navbar-collapse">
@@ -107,9 +107,9 @@ function select_display(item) {
 </script>
 
 <div id="TopUnit"> 
-    <div id="Top10Unit" style="width: 90%; height: 400px; background-color: #FFFFFF;" ></div>
+    <div id="Top10Unit" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
       <div class="Table"><h2>รายละเอียดสินค้าเรียงตามจำนวน</h2>
-      <?php echo "<table><tr align='center'><th>ลำดับ</th><th>ชื่อสินค้า</th><th>จำนวน</th></tr>"; 
+      <?php echo "<table width='100%'><tr align='center'><th>ลำดับ</th><th>ชื่อสินค้า</th><th>จำนวน</th></tr>"; 
             echo $all_tableU;
             echo "</table>";
       ?>
@@ -117,9 +117,9 @@ function select_display(item) {
 </div>
 
 <div id="TopPrice" style="display:none;">
-      <div id="Top10price" style="width: 90%; height: 400px; background-color: #FFFFFF;" ></div>
-      <div class="Table"><h2>รายละเอียดสินค้าเรียงตามราคา</h2>
-        <?php echo "<table><tr align='center'><th>ลำดับ</th><th>ชื่อสินค้า</th><th>ราคา</th></tr>"; 
+      <div id="Top10price" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+      <div class="Table "><h2>รายละเอียดสินค้าเรียงตามราคา</h2>
+        <?php echo "<table width='100%'><tr align='center'><th>ลำดับ</th><th>ชื่อสินค้า</th><th>ราคา</th></tr>"; 
               echo $all_tableP;
               echo "</table>";
         ?>
@@ -137,6 +137,7 @@ function select_display(item) {
 <!-- ////////////////////////////////////////////////////////// -->
 
 
+</div>
 </div>
 </div>
 <a href="current.php"><img src="images/Back.png"></a>
