@@ -556,10 +556,14 @@ document.getElementById("demo").innerHTML = all
                   var SMpick = Spick.toFixed(2);
                   var SMcheck = Scheck.toFixed(2);
                   var SMbill = Sbill.toFixed(2);
-
+				  var Avbill = Sbill/i;
+				  
+				  var Avsale = Avbill.toFixed(2);
+				  
                   all +="<tr style='background:#dedee0;' align='right'><td colspan='5' align='left'><b>ยอดรวม Total</b></td><td><b>" + SMpick.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") 
                   + "</b></td><td><b>"+SMcheck.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"</b></td><td><b>"+SMbill.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"</b></td><td style='background:gray;'></td></tr>";         
                   all +="</table></div>";
+				  all += "<h3>รายได้เฉลี่ยต่อคัน ในวันนี้คือ : "+Avsale.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")+" บาท</h3>";
                   document.getElementById("TReport").innerHTML = all
                   
 </script> 
